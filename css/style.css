@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(36,9,78,255);
+}
+
+
+#anima-div{
+    background: url(../imgs/ovo.jpg);
+    width: 130px;
+    height: 160px;
+    animation: anima-sprite 0.9s steps(7) infinite;
+}
+
+@keyframes anima-sprite {
+    from{background-position: -10px;} 
+    to {background-position: -1019px;}
+}
+
+#anima-div2{
+    background: url(../imgs/ovo2.jpg);
+    width: 130px;
+    height: 160px;
+    animation: anima-sprite2 0.9s steps(7) infinite;
+}
+
+@keyframes anima-sprite2 {
+    from{background-position:6px;} 
+    to {background-position: -1019px;}
+}
+
+#anima-div3{
+    background: url(../imgs/ovo3.jpg);
+    width: 130px;
+    height: 160px;
+    animation: anima-sprite3 0.9s steps(7) infinite;
+}
+
+@keyframes anima-sprite3 {
+    from{background-position: -10px;} 
+    to {background-position: -1019px;}
+}
